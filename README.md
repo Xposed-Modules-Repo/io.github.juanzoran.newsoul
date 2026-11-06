@@ -16,14 +16,14 @@ Soul 插件
 
 ## 安装
 
-安装公开版，在 LSPosed 中启用模块并勾选 Soul 作用域，重启 Soul
-旧包名无法覆盖升级，安装新包后关闭旧版和内部版模块
-保留 Soul 应用及数据可沿用原插件配置
+安装统一版，在 LSPosed 中启用模块并勾选 Soul 作用域，重启 Soul。
+原公开版覆盖升级；原内部版用户先停用旧内部模块，再启用统一版。
+保留 Soul 数据；统一版保留公开版设置，首次使用补入旧内部版尚未设置的项目与 AI 密钥。
 后续可在 LSPosed 仓库检测更新
 
 ## 更新记录
 
-最新正式版本：**1.49.0**
+最新正式版本：**1.50.0**
 
 [查看全部正式版本更新记录](CHANGELOG.md)
 
@@ -31,3 +31,9 @@ Soul 插件
 
 - [Telegram 群组](https://t.me/+3Hl2lJ1X-oZlZTZl)
 - [反馈](https://t.me/JuanZoranNewSoulReleaseBot)，请附日志与截图
+
+## 源码与 AI
+
+公开版与内部 AI 版已合并。AI 支持 DeepSeek、小米 MiMo 和自定义 OpenAI 兼容接口，密钥自行配置。
+
+[完整源码](https://github.com/JuanZoran/NewSoul-Releases)，采用 GPL-3.0-only。
